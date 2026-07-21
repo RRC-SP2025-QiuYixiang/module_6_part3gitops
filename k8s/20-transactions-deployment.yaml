@@ -19,7 +19,7 @@ spec:
         - name: ghcr-creds
       containers:
         - name: transactions
-          image: ghcr.io/rrc-sp2025-qiuyixiang/module_6_part3-transactions:2caf2d04fca7b0563882c125fe18724345739afb
+          image: ghcr.io/rrc-sp2025-qiuyixiang/module_6_part3-transactions:b4cfd8bccb2983b295b0abc964faa6022e3a1d5d
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
